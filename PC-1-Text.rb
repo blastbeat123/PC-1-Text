@@ -78,7 +78,7 @@ class WordProcessor
     @sound_player = SoundPlayer.new('/home/Giuse/Musica/Effetti/click.wav')
 
     # *** API Key Gemini - Assicurati di impostarla! ***
-    @gemini_api_key = ENV['GOOGLE_API_KEY'] || 'AIzaSyD_qrkV_B78O-sbXB1v4umGvsnYRS-KIQg' # *** SOSTITUISCI 'YOUR_API_KEY' ***
+    @gemini_api_key = ENV['GOOGLE_API_KEY'] || 'YOUR_API_KEY' # *** SOSTITUISCI 'YOUR_API_KEY' ***
     @gemini_api_url_base = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-thinking-exp-01-21:generateContent" # URL base
   end
 
