@@ -97,8 +97,8 @@ class WordProcessor
     start_autosave_thread
     start_grammar_check_thread
     bind_key_events
-    @sound_player = SoundPlayer.new('/home/Giuse/Musica/Effetti/click.wav')
-    @notification_sound = SoundPlayer.new('/home/Giuse/Musica/Effetti/click2.wav')
+    @sound_player = SoundPlayer.new('click.wav')
+    @notification_sound = SoundPlayer.new('click2.wav')
     # *** API Key Gemini ***
     @gemini_api_key = ENV['GOOGLE_API_KEY']
     @gemini_api_url_base = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-thinking-exp-01-21:generateContent" # URL base
