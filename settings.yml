@@ -1,0 +1,44 @@
+# Word Processor Configuration File
+# Configurazione per il Word Processor by Giuseppe Bassan
+
+# Font configuration
+default_font:
+  family: "Lato"
+  size: 16
+
+# Autosave configuration (in seconds)
+autosave_interval: 300  # 5 minutes
+
+# UI Configuration
+
+cursor_color: "blue"
+  
+# Audio configuration
+sound:
+  enabled: false
+  file_path: "/home/Giuse/Musica/Effetti/click.wav"
+
+# Grammar check configuration
+grammar_check:
+  enabled: false
+  host: "localhost"
+  port: 8081
+
+# Cache configuration
+cache:
+  size_limit: 1000
+
+# Special characters
+special_chars:
+  enter_symbol: "\u21B5"  # Enter symbol
+  enter_color: "red"
+
+# Text appearance
+text_appearance:
+  select_background: "lightblue"
+  select_foreground: "black"
+  wrap_mode: "word"
+
+# Percorso di lavoro
+
+default_file_path: "/home/Giuse/Documenti/"
